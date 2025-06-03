@@ -1,0 +1,118 @@
+body{
+    /* height: 500vh; */
+     background-image: linear-gradient(to right , #01022d , rgba(0, 0, 0, 0.651)),
+    url(../download.webp);
+    background-attachment: fixed;
+    background-repeat: round;
+    
+    
+}
+.contener{
+    height: 10px;
+    width: 80%;
+}
+body:hover{
+    background-image: linear-gradient(to right , #01022d , rgba(0, 0, 0, 0.233)),
+    url(../download.webp);
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contener a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 5px solid red;
+    border-radius: 40%;
+    width: 100px;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.contener ul{
+    width: 500px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+ 
+    
+}
+.grid{
+    position: absolute;
+    top: 30%;
+    display: grid;
+    grid-template-columns: 40% 40% 10%;
+    gap: 5%;
+}
+.p1{
+    position:relative;
+    width: 100%;
+}
+h2{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 300px;
+}
+p{
+    color: white;
+    text-align: center;
+} 
+img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    position: absolute;
+    top: 40%;
+    left: 280px;
+    width: 150px;
+    background-color: #01022d;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+animation-name: colors;
+animation-duration: 5s;
+}
+
+@keyframes colors {
+
+   90%{
+        background-image:linear-gradient( red 20% , #01022d)  
+    }
+
+    100% {
+        background:red
+
+    }
+    
+}
+
+table{
+    
+    padding-right: 15%;
+   
+}
+th{
+    background-color: #333;
+    color: red;
+    width: auto;
+    padding: 0 , 500px;
+    margin-right: 100px;
+
+}
+td{
+    background-color: rgb(9, 9, 94);
+    text-align: center;
+    width: auto;
+    color: white;
+}
+
+

@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUCK DESIGN  </title>
+</head>
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="web icon" href="../photos/duck logo.jpg">
+
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#6366F1',secondary:'#EC4899'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<link rel="stylesheet" href="../css/serveses.css">
+
+
+<body class="bg-white">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-95 shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="../index.html">    <div class="font-['Pacifico'] text-2xl text-primary">CREATVA</div></a>
+
+            
+            <nav class="hidden md:flex items-center space-x-8 space-x-reverse">
+                <a href="../index.html" class="text-gray-700 hover:text-primary transition-colors">الرئيسية</a>
+                <a href="#services" class="text-gray-700 hover:text-primary transition-colors">خدماتنا</a>
+                <a href="#portfolio" class="text-gray-700 hover:text-primary transition-colors">أعمالنا</a>
+                <a href="#pricing" class="text-gray-700 hover:text-primary transition-colors">الأسعار</a>
+                <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">تواصل معنا</a>
+            </nav>
+            
+            <div class="flex items-center">
+                <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap">
+                    اتصل بنا
+                </button>
+            </div>
+            
+      
+
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#portfolio">اعمالنا </a></li>
+            <li><a href="#people">آراء العملاء</a></li>
+            <li><a href="#pricing">اتصل بنا</a></li>
+        </ul>
+    </div>
+
+
+    <script src="../js/script.js"></script>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 relative overflow-hidden " style="background-image: url('https://readdy.ai/api/search-image?query=professional%20video%20editing%20and%20photo%20design%20studio%20with%20modern%20equipment%2C%20gradient%20background%20with%20purple%20and%20pink%20colors%2C%20high-end%20computers%20and%20cameras%2C%20creative%20workspace%2C%20digital%20art%20tools%2C%20high%20quality%20rendering%2C%20professional%20lighting&width=1920&height=1080&seq=1&orientation=landscape'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-secondary/80"></div>
+        <div class="container mx-auto px-4 py-20 relative z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-1/2 text-white mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 typing-animation">DUCK DESIGN   </h1>
+                    <p class="text-lg md:text-xl mb-8 max-w-xl">نقدم خدمات احترافية في مجال المونتاج وتصميم الصور بأعلى جودة وأحدث التقنيات لنجعل أفكارك تتحول إلى إبداعات مرئية مذهلة</p>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <button class="bg-white text-primary px-8 py-3 !rounded-button font-bold hover:bg-opacity-90 transition-all whitespace-nowrap">
+                            اطلب الآن
+                        </button>
+                        <button class="border-2 border-white text-white px-8 py-3 !rounded-button font-bold hover:bg-white hover:bg-opacity-20 transition-all whitespace-nowrap">
+                            تعرف علينا
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <!-- <img src="https://readdy.ai/api/search-image?query=professional%20video%20editor%20working%20on%20a%20modern%20computer%20with%20multiple%20screens%2C%20showing%20video%20editing%20software%20interface%2C%20creative%20workspace%2C%20high-end%20equipment%2C%20digital%20art%20tools%2C%20high%20quality%20rendering&width=600&height=500&seq=2&orientation=landscape" alt="خدمات المونتاج" class="rounded-lg shadow-2xl max-w-full h-auto object-cover object-top"> -->
+                    <img src="../tinywow_Timeline 1_79401750.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">خدماتنا المتميزة</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">نقدم مجموعة متكاملة من خدمات المونتاج وتصميم الصور لتلبية احتياجاتك الإبداعية بأعلى معايير الجودة</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20video%20editing%20workspace%20with%20timeline%20interface%2C%20color%20grading%20tools%2C%20high-end%20editing%20software%2C%20modern%20computer%20setup%2C%20creative%20video%20production%2C%20cinematic%20color%20palette%2C%20high%20quality%20rendering&width=600&height=400&seq=3&orientation=landscape" alt="تحرير الفيديو" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4">
+                            <i class="ri-movie-line ri-lg text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">تحرير الفيديو</h3>
+                        <p class="text-gray-600 mb-4">خدمات مونتاج فيديو احترافية لجميع المناسبات والأغراض، مع إضافة المؤثرات البصرية والصوتية المتميزة</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>مونتاج أفلام قصيرة</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>تصحيح الألوان</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>إضافة مؤثرات خاصة</span>
+                            </li>
+                        </ul>
+                        <button class="text-primary font-medium flex items-center hover:underline">
+                          <a href="#portfolio">  <span>اكتشف المزيد</span></a>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20photo%20editing%20and%20retouching%20workspace%2C%20photo%20manipulation%20software%20interface%2C%20high-end%20photography%20equipment%2C%20creative%20photo%20design%2C%20portrait%20retouching%2C%20modern%20computer%20setup%2C%20high%20quality%20rendering&width=600&height=400&seq=4&orientation=landscape" alt="تصميم الصور" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4">
+                            <i class="ri-image-edit-line ri-lg text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">تصميم الصور</h3>
+                        <p class="text-gray-600 mb-4">خدمات تصميم وتعديل الصور بأعلى جودة، مع إمكانية إضافة التأثيرات الإبداعية والتعديلات الاحترافية</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>تعديل وتحسين الصور</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>تصميم البوسترات</span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>تصميم للمواقع الإلكترونية</span>
+                            </li>
+                        </ul>
+                        <button class="text-primary font-medium flex items-center hover:underline">
+                            <a href="#portfolio">  <span>اكتشف المزيد</span></a>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://readdy.ai/api/search-image?query=motion%20graphics%20design%20workspace%2C%20animation%20software%20interface%2C%203D%20modeling%20and%20animation%2C%20creative%20digital%20effects%2C%20modern%20computer%20setup%20with%20multiple%20screens%2C%20high-end%20animation%20tools%2C%20high%20quality%20rendering&width=600&height=400&seq=5&orientation=landscape" alt="عروض تقديمية" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4">
+                            <i class="ri-film-line ri-lg text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">عروض تقديمية </h3>
+                        <p class="text-gray-600 mb-4">تصميم  عروض تقديمية احترافي لإضفاء الحيوية على المحتوى الخاص بك وجذب انتباه الجمهور بطريقة مبتكرة</p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>مشاريع </span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>عروض توضيحية  </span>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                    <i class="ri-check-line"></i>
+                                </div>
+                                <span>عروض دراسية </span>
+                            </li>
+                        </ul>
+                        <button class="text-primary font-medium flex items-center hover:underline">
+                            <a href="#portfolio">  <span>اكتشف المزيد</span></a>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">أعمالنا المميزة</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">نفخر بتقديم مجموعة من أفضل أعمالنا التي تعكس جودة خدماتنا وإبداعنا في مجال المونتاج والتصميم</p>
+            </div>
+            
+            <div class="mb-8">
+                <div class="flex justify-center space-x-4 space-x-reverse mb-10">
+                    <button class="bg-primary text-white px-6 py-2 !rounded-full font-medium hover:bg-opacity-90 transition-all whitespace-nowrap portfolio-filter active" data-filter="all" onclick="mo_show()">
+                        الكل
+                    </button>
+                    <button class="bg-gray-200 text-gray-700 px-6 py-2 !rounded-full font-medium hover:bg-gray-300 transition-all whitespace-nowrap portfolio-filter" data-filter="video">
+                        مونتاج فيديو
+                    </button>
+                    <button class="bg-gray-200 text-gray-700 px-6 py-2 !rounded-full font-medium hover:bg-gray-300 transition-all whitespace-nowrap portfolio-filter" data-filter="photo" >
+                        تصميم صور
+                    </button>
+                    <button class="bg-gray-200 text-gray-700 px-6 py-2 !rounded-full font-medium hover:bg-gray-300 transition-all whitespace-nowrap portfolio-filter" data-filter="motion" >
+                        عروض تقديمية
+                    </button>
+                </div>
+                
+
+                    
+
+                
+<!-- videos -->
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 portfolio-items nb" >
+    <!-- Portfolio Item 1 -->
+    <div class="portfolio-item" data-category="video" id="vid2">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <div class="relative group">
+<video src="../photos/el da7e7.mp4" controls controlslist="nodownload" class="photo"></video>
+            </div>
+            <div class="p-4">
+                <h3 class="font-bold text-lg">الدحيح "الزواج السعيد"</h3>
+                <p class="text-gray-600 text-sm">مونتاج فيديو</p>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------- -->
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio-item " data-category="video" id="vid1">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <video src="../photos/grafic/solo livling.mp4" class="photo" controls controlslist="nodownload"></video>
+                                
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">Solo Livling</h3>
+                                <p class="text-gray-600 text-sm">مونتاج فيديو</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------------- -->
+
+
+                    <!-- Portfolio Item 8 -->
+                    <div class="portfolio-item " data-category="video" id="vid1">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <video src="../photos/grafic/leren montag.mp4" class="photo" controls controlslist="nodownload"></video>
+                                
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">Video Editing</h3>
+                                <p class="text-gray-600 text-sm">مونتاج فيديو</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------------- -->
+
+                    <!-- -------------------------------------- -->
+
+
+                    <!-- Portfolio Item 8 -->
+                    <div class="portfolio-item " data-category="video" id="vid3">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <video src="../photos/videos/♫┆KAİJU NO .8(MP4).mp4" class="photo" controls controlslist="nodownload"></video>
+                                
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">Video Editing</h3>
+                                <p class="text-gray-600 text-sm">مونتاج فيديو</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------------- -->
+
+
+
+                    <!-- Portfolio Item 8 -->
+                    <div class="portfolio-item " data-category="video" id="vid4">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <video src="../photos/videos/lv_0_٢٠٢٥٠٥٣١٠١١٣٢٨.mp4" class="photo" controls controlslist="nodownload"></video>
+                                
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">Video Editing</h3>
+                                <p class="text-gray-600 text-sm">مونتاج فيديو</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------------- -->
+                    <!-- Portfolio Item 8 -->
+                    <div class="portfolio-item " data-category="video" id="vid5">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <video src="../photos/videos/lv_0_٢٠٢٥٠٦٠١٠٠٤٤٢٩.mp4" class="photo" controls controlslist="nodownload"></video>
+                                
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">Video Editing</h3>
+                                <p class="text-gray-600 text-sm">مونتاج فيديو</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -------------------------------------- -->
+
+
+
+                    <!-- photos  -->
+                    <!-- Portfolio Item 2 -->
+                    <div class="portfolio-item" data-category="photo" id="none1">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <img class="photo pho1"  class="w-full h-64 object-cover object-top">
+                                
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">حملة "إبداع"</h3>
+                                <p class="text-gray-600 text-sm">تصميم صور</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+<!-- ============================ -->
+
+                    
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio-item" data-category="photo" id="none6">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <img class="photo pho3" class="w-full h-64 object-cover object-top">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">حملة "إبداع"</h3>
+                                <p class="text-gray-600 text-sm">تصميم صور</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+<!-- ============================ -->
+
+                    
+                    
+                    <!-- Portfolio Item 4 -->
+                    <div class="portfolio-item" data-category="photo" id="none3">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <img class="photo pho4"  class="w-full h-64 object-cover object-top">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">حملة "إبداع"</h3>
+                                <p class="text-gray-600 text-sm">تصميم صور</p>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- ============================ -->
+
+                    
+
+                
+                    <!-- Portfolio Item 5-->
+                    <div class="portfolio-item" data-category="photo" id="none4">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <img class="photo pho5"  class="w-full h-64 object-cover object-top">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">حملة "إبداع"</h3>
+                                <p class="text-gray-600 text-sm">تصميم صور</p>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- ============================ -->
+
+                    
+
+                
+                    <!-- Portfolio Item 6-->
+                    <div class="portfolio-item photo" data-category="photo" id="none2">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <img class="photo pho6"  class="w-full h-64 object-cover object-top">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">حملة "إبداع"</h3>
+                                <p class="text-gray-600 text-sm">تصميم صور</p>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- ============================ -->
+                     <!-- Portfolio Item 5 -->
+                     <div class="portfolio-item photo" data-category="photo" id="none5">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <img class="photo pho2 "  class="w-full h-64 object-cover object-top">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg">منتجات "إليجانس"</h3>
+                                <p class="text-gray-600 text-sm">تصميم صور</p>
+                            </div>
+                        </div>
+                    </div>
+<!--  -->
+
+
+
+
+<!-- 112444444444444444444444444444444444 -->
+                    <!-- Portfolio Item 3 -->
+                    <div class="portfolio-item photo" data-category="motion" id="mo2">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <iframe src="https://1drv.ms/p/c/dd59415a95a06638/IQR62pI1AMmdQIBRuzSgoVwUAfR04HNSIpAArvUS3rXo8XM" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+                                <h3 class="font-bold text-lg">"AI"</h3>
+                                <p class="text-gray-600 text-sm"> ماهو الذكاء الاصطناعي وطرق استخدامه والاستفادة منه</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                    
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item photo" data-category="motion" id="mo1">
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <iframe src="https://1drv.ms/p/c/dd59415a95a06638/IQTwEZGzIXphSrxsq5T-zWAdAVLbVKjv1-HD5AdnofvboU4" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+                                <h3 class="font-bold text-lg">"DSS"</h3>
+                                <p class="text-gray-600 text-sm">عرض تقديمي لتعريف ال DSS ودوره في اتخاذ القرارات </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item photo pr3" data-category="motion"  >
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <iframe src="https://1drv.ms/p/c/dd59415a95a06638/IQT6m4GdbD4ARLceE1HUNwnPAQGGniCbJduvkSj1PRxOdA8" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+                                <h3 class="font-bold text-lg">"E-COMMERCE"</h3>
+                                <p class="text-gray-600 text-sm">عرض تقديمي التجارة الالكترونية</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item photo pr2" data-category="motion"  >
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <iframe src="https://1drv.ms/p/c/dd59415a95a06638/IQRspjqX3cLQRqsER079ycurAdXz4rDt_V--ji4hu-fTY-s" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+                                <h3 class="font-bold text-lg">"NETFLEX"</h3>
+                                <p class="text-gray-600 text-sm">عرض تقديمي عن مشكلة netflex </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6 -->
+                    <div class="portfolio-item photo pr1" data-category="motion"  >
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <div class="relative group">
+                                <iframe src="https://1drv.ms/p/c/dd59415a95a06638/IQSekTDrqSHQQq2m95SbwlHCAYYypGqPWbEoFK3GmtPJcxc" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+                                <h3 class="font-bold text-lg">"التجارة"</h3>
+                                <p class="text-gray-600 text-sm">عرض تقديمي لتعريف ال التجارة ودورها في تقوية الاقتصاد </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    
+                
+            </div>
+            
+            <div class="text-center">
+                <button onclick="mo_show()" class="bot bg-white border border-primary text-primary px-8 py-3 !rounded-button font-bold hover:bg-primary hover:text-white transition-all whitespace-nowrap">
+                    عرض المزيد من الأعمال
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .pr1,.pr2,.pr3{
+            display: none;
+        }
+        .pr2,.pr1{
+            margin-top: 60px;
+    
+        }
+        .bot{
+            margin-top: 120px;
+        }
+        #vid3 ,#vid4,#vid5{
+            display: none;
+        }
+    </style>
+
+    <!-- Interactive Section -->
+    <section class="py-20 bg-gray-50" >
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">تجربة خدماتنا التفاعلية</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">جرب بنفسك بعض من خدماتنا التفاعلية وشاهد الفرق بين قبل وبعد التعديل</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Before/After Slider -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-6">قبل وبعد التعديل</h3>
+                    <div class="before-after-container relative h-80 rounded overflow-hidden mb-6">
+                        <img src="https://readdy.ai/api/search-image?query=before%20photo%20editing%2C%20unedited%20portrait%20photo%2C%20natural%20lighting%2C%20no%20retouching%2C%20original%20image%20before%20professional%20editing%2C%20raw%20photo%2C%20high%20quality%20rendering&width=600&height=400&seq=12&orientation=landscape" alt="قبل التعديل" class="absolute inset-0 w-full h-full object-cover object-top">
+                        <div class="before absolute inset-0 w-1/2 overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=after%20photo%20editing%2C%20professionally%20retouched%20portrait%2C%20perfect%20skin%2C%20enhanced%20colors%2C%20dramatic%20lighting%2C%20high-end%20photo%20retouching%2C%20same%20composition%20as%20before%20image%2C%20high%20quality%20rendering&width=600&height=400&seq=13&orientation=landscape" alt="بعد التعديل" class="absolute inset-0 w-full h-full object-cover object-top">
+                        </div>
+                        <div class="slider absolute top-0 bottom-0 left-1/2 w-1 bg-white cursor-ew-resize" id="slider">
+                            <div class="absolute top-1/2 left-1/2 w-8 h-8 bg-white rounded-full -translate-x-1/2 -translate-y-1/2 shadow-lg flex items-center justify-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary">
+                                    <i class="ri-arrow-left-right-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-medium">قبل</span>
+                        <input type="range" min="0" max="100" value="50" class="w-3/4" id="before-after-range">
+                        <span class="font-medium">بعد</span>
+                    </div>
+                </div>
+                
+                <!-- Color Grading Controls -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-6">تجربة تصحيح الألوان</h3>
+                    <div class="relative h-80 rounded overflow-hidden mb-6">
+                        <img src="https://readdy.ai/api/search-image?query=cinematic%20scene%20from%20movie%2C%20professional%20cinematography%2C%20film%20still%20with%20dramatic%20lighting%2C%20high%20quality%20camera%20work%2C%20color%20grading%20example%2C%20high%20quality%20rendering&width=600&height=400&seq=14&orientation=landscape" alt="تصحيح الألوان" class="w-full h-full object-cover object-top" id="color-image">
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">التباين</label>
+                            <input type="range" min="0" max="200" value="100" class="w-full" id="contrast-range">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">السطوع</label>
+                            <input type="range" min="0" max="200" value="100" class="w-full" id="brightness-range">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">التشبع</label>
+                            <input type="range" min="0" max="200" value="100" class="w-full" id="saturation-range">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">درجة اللون</label>
+                            <input type="range" min="0" max="360" value="0" class="w-full" id="hue-range">
+                        </div>
+                    </div>
+                    <div class="mt-4 flex justify-end">
+                        <button class="bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap" id="reset-color">
+                            إعادة ضبط
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4"> لمحة عن المنتجين</h2>
+            </div>
+            
+            <div class="flex justify-center mb-10">
+                <div class="bg-gray-100 p-1 rounded-full inline-flex">
+                    <button onclick="mena()" class="px-6 py-2 !rounded-full font-medium whitespace-nowrap pricing-toggle active" data-period="monthly">
+                        جرافيك
+                    </button>
+                    <button onclick="kero()" class="px-6 py-2 !rounded-full font-medium whitespace-nowrap pricing-toggle" data-period="yearly">
+                        مونتاج
+                    </button>
+                </div>
+            </div>
+            
+            <div class=" md:grid-cols-3 gap-8">
+                <!-- Basic Plan -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden pricing-card" id="mena">
+                    <div class="p-6 border-b">
+                        <h3 class="text-xl font-bold mb-2"> </h3>
+                        <div class="flex items-end">
+                            <span class="font-['Pacifico'] text-2xl text-primary">MINA </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-4 mb-6">
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                </div>
+                                <span>مصمم جرافيك ومؤسس Duck Design، براند متخصص في تقديم تصاميم مبتكرة تجمع بين الإبداع والاحترافية. التصميم بالنسبة لي مش مجرد شغل، ده شغف حقيقي وطريقتي في تحويل الأفكار لرؤية بصرية تنبض بالحياة. باعتني بأدق التفاصيل، وبحب أخلق تصاميم تسيب انطباع قوي وتوصل الرسالة بشكل مميز في Duck Design، بنقدّم تجربة تصميم متكاملة تخاطب الذوق وتخدم الهدف. لو بتدور على مصمم يفهمك ويقدملك شغل يليق بطموحك، يبقى أكيد إحنا المكان الصح</span>
+                            
+                        </ul>
+                        <div class="dataa grad" id="dataa">
+                            
+                           <a href=" https://wa.me/201012033917
+                           "> <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                            </svg></a>
+
+                         <a href="https://www.instagram.com/mina.e.saad/profilecard/?igsh=MWp6MmFndHg4NGxlcA=="><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                  </svg></a>    
+                                  
+                                  
+                                  <a href="https://www.behance.net/onepiece62"> <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-behance" viewBox="0 0 16 16">
+  <path d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391s.497.426.641.747c.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922s.461.957.461 1.563c0 .496-.105.922-.285 1.278a2.3 2.3 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.3 5.3 0 0 1-1.278.176L0 12.803V3zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a1 1 0 0 0-.32-.355 1.8 1.8 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305zm6.858-.035q.428.427 1.278.426c.39 0 .746-.106 1.032-.286q.426-.32.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.1 4.1 0 0 1-1.527-.285 2.8 2.8 0 0 1-1.137-.782 2.85 2.85 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4 4 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396m2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176s-.356.25-.496.39a.96.96 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978z"/>
+</svg></a>
+                           
+                        </div>
+                        <button onclick="dataa()" class="w-full bg-white border border-primary text-primary py-3 !rounded-button font-bold hover:bg-primary hover:text-white transition-all whitespace-nowrap">
+                            تواصل معي 
+                        </button>
+                    </div>
+                </div>
+<!-- kerolos -->
+
+<div class="bg-white rounded-lg shadow-lg overflow-hidden pricing-card" style="display: none;" id="kerolos">
+    <div class="p-6 border-b">
+        <h3 class="text-xl font-bold mb-2"> </h3>
+        <div class="flex items-end">
+            <span class="font-['Pacifico'] text-2xl text-primary">KEROLOS </span>
+        </div>
+    </div>
+    <div class="p-6">
+        <ul class="space-y-4 mb-6">
+            <li class="flex items-center">
+                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                </div>
+<span> مطور ويب ومحرر فيديو يتمتع بخبرة ومهارة في إنشاء مواقع الإنترنت الحديثة باستخدام تقنيات مثل HTML، CSS، JavaScript، أمتلك أيضًا خبرة قوية في مجال المونتاج، باستخدام برامج مثل Adobe Premiere Pro وAfter Effects لإنتاج محتوى مرئي احترافي وجذاب.
+
+    أجيد التعامل بكفاءة مع أدوات وتقنيات الذكاء الاصطناعي، سواء في تطوير البرمجيات أو تسريع عمليات التحرير والإنتاج، ما يساهم في رفع جودة العمل وتقليل الزمن المستغرق. أتميز بالسرعة والدقة في التنفيذ، إضافة إلى القدرة على إدارة المهام المتعددة وتحقيق نتائج فعالة ضمن جداول زمنية ضيقة.
+    
+    كما أمتلك مهارة عالية في إعداد الأبحاث والعروض التقديمية الاحترافية، مع القدرة على تنظيم المعلومات، تبسيط المفاهيم، واستخدام أدوات مثل Microsoft PowerPoint وCanva وGoogle Slides لتقديم محتوى مميز يلبي احتياجات الفرق أو المؤسسات التعليمية والمهنية.
+    
+    أسعى باستمرار إلى تطوير مهاراتي، ومتابعة أحدث الاتجاهات التقنية والإبداعية، مع الالتزام التام بتقديم أعمال احترافية تحقق التميز وترضي تطلعات العملاء.</span>      
+      
+        </ul>
+        <div class="dataa grad" id="DD">
+            
+           <a href=" https://wa.me/message/UKFIOHTIUNLFO1
+           "> <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+            </svg></a>
+
+         <a href="https://t.me/Kerolos_emeel
+         "><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+          </svg></a>    
+          
+          <a href="https://www.youtube.com/@EpicZone1212"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+</svg></a>
+           
+        </div>
+        <button onclick="DD()" class="w-full bg-white border border-primary text-primary py-3 !rounded-button font-bold hover:bg-primary hover:text-white transition-all whitespace-nowrap">
+            تواصل معي 
+        </button>
+    </div>
+</div>
+
+
+                <style>
+                    svg{
+                        margin-bottom: 10px;
+                        cursor: pointer;
+                    }
+                    .grad{
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+                        align-items: center;
+                        display: none;
+                    }
+                    .phone{
+                        font-size: 30px;
+                        color: rgb(177, 0, 0);
+                    }
+
+                    
+                </style>
+                <script>
+                    let d = document.getElementById("dataa");
+                    let D = document.getElementById("DD");
+                    let m = document.getElementById("mena");
+                    let k = document.getElementById("kerolos");
+                    function dataa(){
+                        d.style.display='flex'
+                    }
+                    function DD(){
+                        D.style.display='flex'
+                    }
+                    function kero(){
+                        m.style.display='none'
+                        k.style.display='block'
+                    }
+                    function mena(){
+                        m.style.display='block'
+                        k.style.display='none'
+                    }
+                    document.addEventListener('contextmenu', event => event.preventDefault());
+                </script>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50" id="people">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">آراء عملائنا</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">استمع إلى ما يقوله عملاؤنا عن تجربتهم مع خدماتنا وجودة أعمالنا</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"تعاملت مع الفريق لتصميم فيديو تعريفي لشركتي، وكانت النتيجة مذهلة! احترافية عالية ودقة في التنفيذ والالتزام بالمواعيد. سأتعامل معهم مرة أخرى بالتأكيد."</p>
+                    <div class="flex items-center">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20middle%20eastern%20businessman%20portrait%2C%20studio%20lighting%2C%20formal%20attire%2C%20confident%20expression%2C%20high%20quality%20headshot%2C%20neutral%20background%2C%20high%20quality%20rendering&width=100&height=100&seq=15&orientation=squarish" alt="محمد الأحمد" class="w-12 h-12 rounded-full object-cover object-top ml-4">
+                        <div>
+                            <h4 class="font-bold">محمد الأحمد</h4>
+                            <p class="text-gray-600 text-sm">المدير التنفيذي، شركة تقنية المستقبل</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"أفضل خدمة مونتاج جربتها! قاموا بتحويل لقطات زفافي إلى فيلم سينمائي رائع. الاهتمام بالتفاصيل والإبداع في اختيار الموسيقى والمؤثرات كان مميزاً جداً."</p>
+                    <div class="flex items-center">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20middle%20eastern%20woman%20portrait%2C%20studio%20lighting%2C%20business%20casual%2C%20friendly%20smile%2C%20high%20quality%20headshot%2C%20neutral%20background%2C%20high%20quality%20rendering&width=100&height=100&seq=16&orientation=squarish" alt="سارة العلي" class="w-12 h-12 rounded-full object-cover object-top ml-4">
+                        <div>
+                            <h4 class="font-bold">سارة العلي</h4>
+                            <p class="text-gray-600 text-sm">مصممة جرافيك</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-primary">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"تعاملت معهم لتصميم صور منتجات لمتجري الإلكتروني، وكانت النتائج احترافية جداً. ساعدتني الصور في زيادة المبيعات بشكل ملحوظ. سعر مناسب وجودة عالية."</p>
+                    <div class="flex items-center">
+                        <img src="https://readdy.ai/api/search-image?query=professional%20middle%20eastern%20man%20portrait%2C%20studio%20lighting%2C%20casual%20business%20attire%2C%20friendly%20expression%2C%20high%20quality%20headshot%2C%20neutral%20background%2C%20high%20quality%20rendering&width=100&height=100&seq=17&orientation=squarish" alt="أحمد الناصر" class="w-12 h-12 rounded-full object-cover object-top ml-4">
+                        <div>
+                            <h4 class="font-bold">أحمد الناصر</h4>
+                            <p class="text-gray-600 text-sm">صاحب متجر إلكتروني</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div>
+                    <div class="font-['Pacifico'] text-3xl text-white mb-4">CREATVA</div>
+                    <p class="text-gray-400 mb-6">نقدم خدمات المونتاج وتصميم الصور الاحترافية لتحويل أفكارك إلى إبداعات مرئية مذهلة</p>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full text-gray-400 hover:text-white hover:bg-primary transition-all social-icon">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full text-gray-400 hover:text-white hover:bg-primary transition-all social-icon">
+                            <i class="ri-twitter-x-fill"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full text-gray-400 hover:text-white hover:bg-primary transition-all social-icon">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full text-gray-400 hover:text-white hover:bg-primary transition-all social-icon">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">روابط سريعة</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition-colors">الرئيسية</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">خدماتنا</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition-colors">أعمالنا</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition-colors">المنتجين</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">خدماتنا</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition-colors portfolio-filter" data-filter="video">مونتاج فيديو</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition-colors portfolio-filter" data-filter="photo">تصميم صور</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition-colors portfolio-filter" data-filter="motion">عروض تقديمية</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            
+            <div class="border-t border-gray-800 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 جميع الحقوق محفوظة لـ <span class="text-white">CREATVA </span></p>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#" class="text-gray-400 text-sm hover:text-white transition-colors">سياسة الخصوصية</a>
+                        <a href="#" class="text-gray-400 text-sm hover:text-white transition-colors">الشروط والأحكام</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="../js/serveses.js"></script>
+</body>
+</html>

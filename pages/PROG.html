@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIOSA</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config = { theme: { extend: { colors: { primary: '#2563EB', secondary: '#7C3AED' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } } }</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+    <link rel="stylesheet" href="../css/prog.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+    
+    <script src="../js/script.js"></script>
+
+
+</head>
+
+<body class="bg-white text-gray-800">
+
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-95 shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="../index.html">    <div class="font-['Pacifico'] text-2xl text-primary">CRIOSA</div></a>
+
+            
+            <nav class="hidden md:flex items-center space-x-8 space-x-reverse">
+                <a href="../index.html" class="text-gray-700 hover:text-primary transition-colors">الرئيسية</a>
+                <a href="#services" class="text-gray-700 hover:text-primary transition-colors">خدماتنا</a>
+                <a href="#portfolio" class="text-gray-700 hover:text-primary transition-colors">أعمالنا</a>
+                <a href="#pricing" class="text-gray-700 hover:text-primary transition-colors">تواصل معنا</a>
+            </nav>
+            
+            <div class="flex items-center">
+          <a href="#pricing">   <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap">
+                    اتصل بنا
+                </button></a>
+            </div>
+            
+      
+
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#portfolio">اعمالنا </a></li>
+            <li><a href="#people">آراء العملاء</a></li>
+            <li><a href="#pricing">اتصل بنا</a></li>
+        </ul>
+    </div>
+
+
+    <script src="../js/script.js"></script>
+
+
+
+
+    <!-- قسم العرض الرئيسي -->
+    <section class="pt-32 pb-20 relative overflow-hidden">
+        <div style="background-image: url('https://readdy.ai/api/search-image?query=modern%20technology%20programming%20concept%20with%20abstract%20code%20visualization%2C%20blue%20and%20purple%20gradient%2C%20elegant%20design%2C%20minimalist%20tech%20background%20with%20geometric%20shapes%2C%20suitable%20for%20Arabic%20website&width=1600&height=800&seq=1&orientation=landscape');"
+            class="absolute inset-0 bg-cover bg-center opacity-20"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col-reverse md:flex-row items-center">
+                <div class="w-full md:w-1/2 hero-gradient p-8 rounded-lg">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+                        <span class="text-primary">حلول برمجية</span> متكاملة لتحقيق رؤيتك
+                    </h1>
+                    <p class="text-lg mb-8 typing-effect max-w-lg">
+                        نقدم خدمات برمجية احترافية      
+                         وإنشاء الأبحاث التفاعلية
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                  <a href="#pricing">       <button
+                            class="btn-primary bg-primary text-white px-8 py-3 !rounded-button hover:shadow-lg transition-all whitespace-nowrap">
+                            اطلب الخدمة الآن
+                        </button></a>
+                   <a href="#portfolio">      <button
+                            class="border-2 border-primary text-primary px-8 py-3 !rounded-button hover:bg-primary hover:text-white transition-all whitespace-nowrap">
+                            تعرف على المزيد
+                        </button></a>
+
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
+                    <img src="https://readdy.ai/api/search-image?query=3D%20illustration%20of%20programming%20concept%2C%20developer%20workspace%20with%20floating%20code%20elements%2C%20futuristic%20interface%2C%20blue%20and%20purple%20color%20scheme%2C%20high-quality%20render%20with%20transparent%20background&width=600&height=600&seq=2&orientation=squarish"
+                        alt="برمجة متقدمة" class="w-full max-w-lg object-contain">
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <!-- قسم الخدمات -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4"> خدماتنا المتميزة</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">نقدم مجموعة متكاملة من الخدمات  المتطورة لتلبية
+                    احتياجات عملائنا في مختلف المجالات</p>
+            </div>
+            <div class="grid gap-8">
+                <!-- خدمة Frontend -->
+                <div class="bg-white p-8 rounded-lg shadow-md card-hover griid">
+                 
+                 
+
+                    <div>
+                    <h3 class="text-xl font-bold mb-4 text-center">تطوير الواجهات الأمامية</h3>
+                    <p class="text-gray-600 mb-6 text-reight">تصميم وتطوير واجهات مستخدم جذابة وتفاعلية يتضمن إنشاء واجهات رقمية تتميز بسهولة الاستخدام، الجمال البصري، وسرعة الاستجابة، وذلك باستخدام أحدث تقنيات الويب مثل HTML5، CSS3، JavaScript، وواجهات حديثة مثل React أو Vue.js. يتم التركيز على تحسين تجربة المستخدم من خلال</p>
+                    <ul class="mb-6 space-y-2 display" id="ul1">
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span>تصميم متجاوب يناسب جميع الأجهزة (Responsive Design)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span>استخدام الرسوم المتحركة البسيطة والمؤثرات التفاعلية لتحسين التفاعل</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span>تحميل سريع وتحسين أداء الواجهة (Optimization)</span>
+                        </li>
+
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-primary"></i>
+                            </div>
+                            <span>دعم الوضع الليلي وتخصيص الثيمات</span>
+                        </li>
+
+                      
+
+
+
+
+
+                    </ul>
+                    <button
+                    onclick="show_pro(0)"   class="w-full bg-white border border-primary text-primary py-2 !rounded-button hover:bg-primary hover:text-white transition-all whitespace-nowrap">المزيد
+                        من التفاصيل</button></div>
+                 
+                        <div class="photoo">
+                            <img class="iimg" src="../photos/prog/1-removebg-preview.png" alt="">
+                        </div>
+                </div>
+                <!-- خدمة Backend -->
+                <div class="bg-white p-8 rounded-lg shadow-md card-hover griid">
+                    <div class="photoo">
+                        <img src="../photos/prog/2.png" alt="">      
+                    </div>
+
+                    <div>
+                    <h3 class="text-xl font-bold mb-4 text-center">تطوير الخلفيات البرمجية</h3>
+                    <p class="text-gray-600 mb-6 text-center">بناء أنظمة خلفية قوية وقابلة للتوسع يشمل تطوير خوادم وبرمجيات تدعم تطبيقات الويب والموبايل، باستخدام تقنيات مثل Node.js، Django، أو Laravel، مع قواعد بيانات مرنة مثل PostgreSQL أو MongoDB. يتم التركيز على الأداء والموثوقية من خلال:</p>
+                    <ul class="mb-6 space-y-2 display"  id="ul2">
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-secondary"></i>
+                            </div>
+                            <span>بناء واجهات برمجة تطبيقات (APIs) متكاملة REST أو GraphQL</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-secondary"></i>
+                            </div>
+                            <span>تطوير بـ Node.js, Python, PHP</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-secondary"></i>
+                            </div>
+                            <span>قواعد بيانات SQL و NoSQL</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-secondary"></i>
+                            </div>
+                            <span>تطوير واجهات برمجة التطبيقات .NET</span>
+                        </li>
+                    </ul>
+                    <button
+                    onclick="show_pro(1)"    class="w-full bg-white border border-secondary text-secondary py-2 !rounded-button hover:bg-secondary hover:text-white transition-all whitespace-nowrap">المزيد
+                        من التفاصيل</button>
+                    </div>
+                    
+                
+
+                </div>
+                <!-- خدمة الأبحاث -->
+                <div class="bg-white p-8 rounded-lg shadow-md card-hover griid">    
+                
+                    <div>
+                    <h3 class="text-xl font-bold mb-4 text-center">البحث والتطوير</h3>
+                    <p class="text-gray-600 mb-6 text-center">إنشاء جميع أنواع الأبحاث بطرق مبتكرة ومتميزة يشمل إعداد محتوى علمي أو أكاديمي مبني على أسس منهجية دقيقة وتحليل معمّق، باستخدام أدوات حديثة مثل الذكاء الاصطناعي وقواعد البيانات المتخصصة   </p><br>
+                    <ul class="mb-6 space-y-2 display"  id="ul3">
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-green-600"></i>
+                            </div>
+                            <span>تقديم محتوى منسّق ومبسّط مع دعم بصري (جداول، رسوم، مراجع)
+
+                            </span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-green-600"></i>
+                            </div>
+                            <span>تخصيص البحث حسب المجال والهدف والجمهور المستهدف </span>
+                        </li>
+
+
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-green-600"></i>
+                            </div>
+                            <span>تنوع في أساليب البحث (وصفي، تحليلي، تجريبي...) </span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-2">
+                                <i class="ri-check-line text-green-600"></i>
+                            </div>
+                            <span>   استخدام أدوات كشف الانتحال وتحسين اللغة   </span>
+                        </li>
+                    </ul>
+                    <button
+                       onclick="show_pro(2)" class="w-full bg-white border border-green-600 text-green-600 py-2 !rounded-button hover:bg-green-600 hover:text-white transition-all whitespace-nowrap">المزيد
+                        من التفاصيل</button>
+                    </div>
+                    <div class="photoo">
+                        <img src="../photos/prog/4-removebg-preview.png" alt="">            
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script>
+    const arr = ["#ul1","#ul2","#ul3"];
+    function show_pro(e){
+       const t = document.querySelector(arr[e])
+       t.style.display='block'
+    }
+</script>
+        <!-- قسم الإحصائيات -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-primary mb-2 count-up">250+</div>
+                        <p class="text-gray-600">مشروع مكتمل</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-primary mb-2 count-up">120+</div>
+                        <p class="text-gray-600">عميل سعيد</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-primary mb-2 count-up">15+</div>
+                        <p class="text-gray-600">سنوات خبرة</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-primary mb-2 count-up">30+</div>
+                        <p class="text-gray-600">مطور محترف</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- قسم الأعمال -->
+    <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">أعمالنا</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">نفخر بتقديم مجموعة متنوعة من المشاريع الناجحة التي أنجزناها
+                    لعملائنا</p>
+            </div>
+            <div class="flex justify-center mb-10">
+                <div class="inline-flex bg-gray-100 p-1 rounded-full">
+                    <button class="px-6 py-2 rounded-full bg-primary text-white whitespace-nowrap portfolio-filter active" data-filter="all">جميع
+                        المشاريع</button>
+                    <button class="px-6 py-2 rounded-full text-gray-700 hover:bg-gray-200 whitespace-nowrap  portfolio-filter" data-filter="video">تطبيقات
+                        الويب</button>
+                    <button class="px-6 py-2 rounded-full text-gray-700 hover:bg-gray-200 whitespace-nowrap  portfolio-filter" data-filter="back">تطبيقات الخلفيات (Backend)
+                        </button>
+                    <button class="px-6 py-2 rounded-full text-gray-700 hover:bg-gray-200 whitespace-nowrap  portfolio-filter" data-filter="motion" onclick="serch()">الابحاث</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- مشروع 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item" data-category="video">
+                    <div class="relative h-60">
+                        <img src="./example/ex1.png"
+                            alt="منصة تحليل الأعمال" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">منصة  الأعمال</h3>
+                        <p class="text-gray-600 mb-4">منصة متكامل لعرض المنتجات المنطمة وتحليل البيانات</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">JS</span>
+                        </div>
+                        <a href="./example/index.html" class="text-primary hover:underline flex items-center">
+                            <span>عرض التفاصيل</span>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+<!-- ======================================== -->
+
+
+                <!-- مشروع 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item" data-category="back">
+                    <div class="relative h-60">
+                        <img src="../photos/WhatsApp Image 2025-06-03 at 6.17.10 PM.jpeg"
+                            alt="منصة تحليل الأعمال" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">معرض الاعمال  </h3>
+                        <p class="text-gray-600 mb-4">منصة متكامل لعرض المنتجات المنطمة وتحليل البيانات</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">python</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">ASB.NET</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">java</span>
+                        </div>
+                       
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+<!-- ======================================== -->
+
+
+
+
+                <!-- مشروع 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item back1" data-category="back">
+                    <div class="relative h-60">
+                        <img src="../photos/WhatsApp Image 2025-06-03 at 6.17.11 PM (1).jpeg"
+                            alt="منصة تحليل الأعمال" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">منصة العاب    </h3>
+                        <p class="text-gray-600 mb-4">منصة العاب كاملة لعرض الالعاب و البيانات و لتجربة كل لعبة قبل الشراء</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">python</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">ASB.NET</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">java</span>
+                        </div>
+                       
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+<!-- ======================================== -->
+
+
+
+
+
+
+                <!-- مشروع 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item" data-category="video">
+                    <div class="relative h-60">
+                        <img src="./example/SS1.png"
+                            alt="تطبيق تسوق إلكتروني" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">تطبيق تسوق إلكتروني</h3>
+                        <p class="text-gray-600 mb-4">تطبيق  متكامل للتسوق الإلكتروني مع نظام دفع آمن وإدارة
+                            للمنتجات</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JS</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">MONGO DATABASE</span>
+
+                        </div>
+                        <a href="./example/html-full/index.html" class="text-primary hover:underline flex items-center">
+                            <span>عرض التفاصيل</span>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- مشروع4  -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item" data-category="motion">
+                    <div class="relative h-60">
+                        <img src="./example/sh1.png"
+                            alt="روبوت محادثة ذكي" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">بحث عن التجارة الالكترونية  </h3>
+                        <p class="text-gray-600 mb-4">بحث متكامل عن التجارة الالكترونية خصائصها و مميزاتها </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">خصائص</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">مميوات</span>
+                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">عيوب</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">استخدامات</span>
+
+                        </div>
+                        <a href="https://docs.google.com/document/d/1PYhJQtBdIM9rIyhMbSTo7Ty5WhNqyoAV/edit?usp=sharing&ouid=105773434707171181384&rtpof=true&sd=true" class="text-primary hover:underline flex items-center">
+                            <span>عرض التفاصيل</span>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <!-- مشروع5   -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item serch" data-category="motion">
+                    <div class="relative h-60">
+                        <img src="./example/بحث2.png"
+                            alt="روبوت محادثة ذكي" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">بحث عن التضخم   </h3>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">خصائص</span>
+                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">عيوب</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">حلول</span>
+
+                        </div>
+                        <a href="https://drive.google.com/file/d/1lyGP2huqLJYczQmqHBzl6_yMH37fDRah/view?usp=sharing" class="text-primary hover:underline flex items-center">
+                            <span>عرض التفاصيل</span>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!-- مشروع5   -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item serch" data-category="motion">
+                    <div class="relative h-60">
+                        <img src="./example/بحث3.png"
+                            alt="روبوت محادثة ذكي" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">بحث عن البطالة   </h3>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">خصائص</span>
+                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">عيوب</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">حلول</span>
+
+                        </div>
+                        <a href="https://docs.google.com/document/d/1OKmJOqRlcMeFcH3o30rvBCzg2jf90C2a/edit?usp=sharing&ouid=105773434707171181384&rtpof=true&sd=true" class="text-primary hover:underline flex items-center">
+                            <span>عرض التفاصيل</span>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- مشروع 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md portfolio-item video serch" data-category="video">
+                    <div class="relative h-60">
+                        <img src="./example/ex3.png"
+                            alt="روبوت محادثة ذكي" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">صفحة المنظمة  </h3>
+                        <p class="text-gray-600 mb-4">صفحة لعرض معلومات المنظمة وجميع منتجاتها </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">JS</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">node.js</span>
+
+                        </div>
+                        <a href="./example/avatar/index.html" class="text-primary hover:underline flex items-center">
+                            <span>عرض التفاصيل</span>
+                            <div class="w-5 h-5 flex items-center justify-center mr-1">
+                                <i class="ri-arrow-left-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="text-center mt-12">
+                <button
+                    class="bg-white border border-primary text-primary px-8 py-3 !rounded-button hover:bg-primary hover:text-white transition-all whitespace-nowrap">عرض
+                    جميع المشاريع</button>
+            </div> -->
+        </div>
+    </section>
+<style>
+.video ,.serch ,.back1{
+    display: none;
+}
+</style>
+
+
+
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4"> لمحة عن المنتجين</h2>
+            </div>
+            
+            <div class="flex justify-center mb-10">
+                <div class="bg-gray-100 p-1 rounded-full inline-flex">
+                    <button onclick="mena()" class="px-6 py-2 !rounded-full font-medium whitespace-nowrap pricing-toggle active" data-period="monthly">
+                        تطبيقات خلفية(backend)
+                    </button>
+                    <button onclick="kero()" class="px-6 py-2 !rounded-full font-medium whitespace-nowrap pricing-toggle" data-period="yearly">
+                        تطبيقات الويب
+                    </button>
+                </div>
+            </div>
+            
+            <div class=" md:grid-cols-3 gap-8">
+                <!-- Basic Plan -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden pricing-card" id="mena">
+                    <div class="p-6 border-b">
+                        <h3 class="text-xl font-bold mb-2"> </h3>
+                        <div class="flex items-end">
+                            <span class="font-['Pacifico'] text-2xl text-primary">FADY </span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-4 mb-6">
+                            <li class="flex items-center">
+                                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                                </div>
+                                <span>فادي فايز – مطور .NET بخبرة في تطوير تطبيقات Windows Forms وASP.NET Core MVC، ومتمكن من العمل مع قواعد البيانات باستخدام Entity Framework Core وSQL. طالب بالسنة الأخيرة بكلية التجارة وإدارة الأعمال – قسم نظم المعلومات الإدارية، جامعة حلوان.</span>
+                        </ul>
+                        <div class="dataa grad" id="dataa">
+                            
+                           <a href=" https://wa.me/qr/6D6ZNUBT4475H1
+                           "> <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                            </svg></a>
+
+     
+                        </div>
+                        <button onclick="dataa()" class="w-full bg-white border border-primary text-primary py-3 !rounded-button font-bold hover:bg-primary hover:text-white transition-all whitespace-nowrap">
+                            تواصل معي 
+                        </button>
+                    </div>
+                </div>
+<!-- kerolos -->
+
+<div class="bg-white rounded-lg shadow-lg overflow-hidden pricing-card"  id="kerolos" style="display: none;">
+    <div class="p-6 border-b">
+        <h3 class="text-xl font-bold mb-2"> </h3>
+        <div class="flex items-end">
+            <span class="font-['Pacifico'] text-2xl text-primary">KEROLOS </span>
+        </div>
+    </div>
+    <div class="p-6">
+        <ul class="space-y-4 mb-6">
+            <li class="flex items-center">
+                <div class="w-5 h-5 flex items-center justify-center text-primary ml-2">
+                </div>
+<span>أنا محترف في مجال المونتاج وتصميم الأبحاث وتطوير واجهات مواقع الويب (Frontend). أتمتع بخبرة واسعة في تحرير الفيديوهات بشكل احترافي، مما يتيح لي إنشاء محتوى مرئي جذاب وفعال. كما أنني متمكن من تنظيم وتقديم المعلومات بطريقة منهجية ودقيقة، مما يساعد في إعداد أبحاث متكاملة. بالإضافة إلى ذلك، لدي مهارات قوية في بناء واجهات مستخدم تفاعلية وجذابة باستخدام تقنيات HTML، CSS، وJavaScript.</span>    
+      
+            <li class="flex items-center"> مونتاج الفيديو باستخدام برامج تحرير متقدمة</li>
+            <li class="flex items-center"> تصميم الأبحاث وإعداد التقارير.</li>
+            <li class="flex items-center"> تطوير واجهات مواقع الويب (Frontend) باستخدام HTML، CSS، وJavaScript.</li>
+            <li class="flex items-center"> القدرة على العمل ضمن فريق وتحقيق الأهداف المشتركة.</li>
+            <li class="flex items-center"> مهارات تواصل ممتازة وقدرة على حل المشكلات بفعالية.</li>
+                
+
+        </ul>
+        <div class="dataa grad" id="DD">
+            
+           <a href=" https://wa.me/message/UKFIOHTIUNLFO1
+           "> <svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+            </svg></a>
+
+         <a href="https://t.me/Kerolos_emeel
+         "><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+          </svg></a>    
+          
+          <a href="https://www.youtube.com/@EpicZone1212"><svg style="color: red;" xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+</svg></a>
+           
+        </div>
+        <button onclick="DD()" class="w-full bg-white border border-primary text-primary py-3 !rounded-button font-bold hover:bg-primary hover:text-white transition-all whitespace-nowrap">
+            تواصل معي 
+        </button>
+    </div>
+</div>
+
+
+                <style>
+                    svg{
+                        margin-bottom: 10px;
+                        cursor: pointer;
+                    }
+                    .grad{
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+                        align-items: center;
+                        display: none;
+                    }
+                    .phone{
+                        font-size: 30px;
+                        color: rgb(177, 0, 0);
+                    }
+
+                    
+                </style>
+                <script>
+                    let d = document.getElementById("dataa");
+                    let D = document.getElementById("DD");
+                    let m = document.getElementById("mena");
+                    let k = document.getElementById("kerolos");
+                    function dataa(){
+                        d.style.display='flex'
+                    }
+                    function DD(){
+                        D.style.display='flex'
+                    }
+                    function kero(){
+                        m.style.display='none'
+                        k.style.display='block'
+                    }
+                    function mena(){
+                        m.style.display='block'
+                        k.style.display='none'
+                    }
+                    document.addEventListener('contextmenu', event => event.preventDefault());
+                </script>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- قسم الشهادات -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">ماذا يقول عملاؤنا</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">آراء عملائنا الكرام في خدماتنا ومشاريعنا المنجزة</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- شهادة 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"فريق محترف قدم لنا حلاً متكاملاً لإدارة أعمالنا بطريقة مبتكرة. تم
+                        تسليم المشروع في الوقت المحدد وبجودة عالية تفوق توقعاتنا."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20middle%20eastern%20businessman%20portrait%2C%20formal%20attire%2C%20neutral%20background%2C%20high%20quality%20professional%20headshot&width=100&height=100&seq=8&orientation=squarish"
+                                alt="أحمد الناصر" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">أحمد الناصر</h4>
+                            <p class="text-gray-600 text-sm">المدير التنفيذي، شركة الأفق للتكنولوجيا</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- شهادة 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"الموقع  الذي طورته الشركة لنا ساهم في زيادة مبيعاتنا بنسبة 40%
+                        خلال الربع الأول من إطلاقه. تصميم رائع وأداء ممتاز."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20middle%20eastern%20businesswoman%20portrait%2C%20formal%20business%20attire%2C%20neutral%20background%2C%20high%20quality%20professional%20headshot&width=100&height=100&seq=9&orientation=squarish"
+                                alt="سارة المنصور" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">سارة المنصور</h4>
+                            <p class="text-gray-600 text-sm">مديرة التسويق، متاجر النخبة</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- شهادة 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="w-5 h-5 flex items-center justify-center text-yellow-500 mr-1">
+                            <i class="ri-star-half-fill"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"نظام تحليل البيانات الذي طورته الشركة ساعدنا في اتخاذ قرارات أفضل
+                        بناءً على بيانات دقيقة. فريق دعم ممتاز ومتعاون."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20middle%20eastern%20man%20portrait%2C%20casual%20business%20attire%2C%20neutral%20background%2C%20high%20quality%20professional%20headshot&width=100&height=100&seq=10&orientation=squarish"
+                                alt="محمد العتيبي" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">محمد العتيبي</h4>
+                            <p class="text-gray-600 text-sm">مدير العمليات، مجموعة الرياض للاستثمار</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="mb-6 md:mb-0 md:w-1/2">
+                    <h2 class="text-2xl font-bold text-white mb-2">اشترك في نشرتنا الإخبارية</h2>
+                    <p class="text-white text-opacity-80">احصل على آخر الأخبار والتحديثات حول خدماتنا ومشاريعنا</p>
+                </div>
+                <div class="w-full md:w-1/2 max-w-md">
+                    <div class="flex">
+                        <input type="email" class="w-full px-4 py-3 rounded-r-lg focus:outline-none"
+                            placeholder="أدخل بريدك الإلكتروني">
+                        <button
+                            class="bg-white text-primary px-6 py-3 rounded-l-lg hover:bg-opacity-90 transition-all whitespace-nowrap">اشتراك</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- التذييل -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="font-['Pacifico'] text-white text-2xl mb-4">CRIOSA</div>
+                    <p class="text-gray-400 mb-6">نقدم حلول برمجية متكاملة لتلبية احتياجات عملائنا في مختلف المجالات
+                        التقنية</p>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <div class="w-8 h-8 flex items-center justify-center">
+                                <i class="ri-twitter-x-line"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <div class="w-8 h-8 flex items-center justify-center">
+                                <i class="ri-linkedin-line"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <div class="w-8 h-8 flex items-center justify-center">
+                                <i class="ri-facebook-line"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <div class="w-8 h-8 flex items-center justify-center">
+                                <i class="ri-instagram-line"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">روابط سريعة</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">الرئيسية</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">خدماتنا</a>
+                        </li>
+                        <li><a href="#research" class="text-gray-400 hover:text-white transition-colors">البحث
+                                والتطوير</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-white transition-colors">أعمالنا</a>
+                        </li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">اتصل بنا</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">خدماتنا</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">تطوير الواجهات
+                                الأمامية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">تطوير الخلفيات
+                                البرمجية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors" onclick="serch()">الابحاث </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">تواصل معنا</h4>
+                    <ul class="space-y-4">
+                    
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center text-gray-400 ml-2">
+                                <i class="ri-mail-line"></i>
+                            </div>
+                            <span class="text-gray-400">kerolosemeel99@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center text-gray-400 ml-2">
+                                <i class="ri-phone-line"></i>
+                            </div>
+                            <span class="text-gray-400">01551095626</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 mb-4 md:mb-0">© 2025 جميع الحقوق محفوظة | شركة الحلول التقنية</p>
+                    <div class="flex space-x-6 space-x-reverse">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">سياسة الخصوصية</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">الشروط والأحكام</a>
+                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/prog.js"></script>
+    <script src="../js/script.js"></script>
+<script src="../js/serveses.js"></script>
+
+</body>
+
+</html>

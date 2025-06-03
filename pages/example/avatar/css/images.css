@@ -1,0 +1,90 @@
+body{
+    height: 100vh;
+     background-image: linear-gradient(to right , #01022d , rgba(0, 0, 0, 0.651)),
+    url(../download.webp);
+    background-attachment: fixed;
+    background-repeat: round;
+    
+}
+.contener{
+    height: 10px;
+    width: 80%;
+}
+body:hover{
+    background-image: linear-gradient(to right , #01022d , rgba(0, 0, 0, 0.233)),
+    url(../download.webp);
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contener a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 5px solid red;
+    border-radius: 40%;
+    width: 100px;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.contener ul{
+    width: 500px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+    
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 5px;
+    text-shadow: 3px 2px 3px red;
+}
+/* end header */
+img{
+    width: 200px;
+    height: 200px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.col{
+    position: relative;
+    top: 80px;
+}
+.col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 14px 5px;
+    display: block;
+    transition:.5s ;
+    text-transform: uppercase;
+    width: 150px;
+    z-index: 100;
+    border-bottom: 5px solid red;
+    width: 50%;
+}
+.col ul li::after{
+    content: attr(data-text);
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+    width: 400px;
+    height: 25px;
+}
+.col ul li:hover::after{
+    opacity: 1;
+}
